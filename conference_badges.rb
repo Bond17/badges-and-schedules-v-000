@@ -10,7 +10,7 @@ end
 def batch_badge_creator (array)
 index=0
 array.each do |name|
-array[inded]=badge_maker(name)
+array[index]=badge_maker(name)
 end
 end
 
