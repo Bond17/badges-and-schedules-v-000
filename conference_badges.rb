@@ -3,12 +3,8 @@ def assign_rooms
 [" "," "]
 end
 
-def badge_maker(array)
-index =0
-array.each do |name|
-array[inded] =  "Hello, my name is #{name}."
-index += 1
-end
+def badge_maker(name)
+"Hello, my name is #{name}."
 end
 
 # def printer
