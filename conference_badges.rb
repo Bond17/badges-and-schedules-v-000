@@ -7,14 +7,14 @@ def batch_badge_creator
 [" "," "]
 end
 
-def printer
-
-assign_rooms.each |Rooms| do
-puts Rooms
-end
-
-batch_badge_creator.each |Rooms| do
-puts Rooms
-end
-
-end
+# def printer
+# 
+# assign_rooms.each |Rooms| do
+# puts Rooms
+# end
+# 
+# batch_badge_creator.each |Rooms| do
+# puts Rooms
+# end
+# 
+# end
