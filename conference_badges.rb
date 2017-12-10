@@ -11,6 +11,7 @@ def batch_badge_creator (array)
 index=0
 array.each do |name|
 array[index]=badge_maker(name)
+index +=1
 end
 end
 
