@@ -1,5 +1,6 @@
 # Write your code here.
 def assign_rooms (attendees)
+room = [" ", " "]
 index = attendees.size
 attendees.each do |room_assignment|
   room[index]=room_assignment
