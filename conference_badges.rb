@@ -3,7 +3,7 @@ def assign_rooms
 [" "," "]
 end
 
-def batch_badge_creator (array)
+def badge_maker(array)
 index =0
 array.each do |name|
 array[inded] =  "Hello, my name is #{name}."
