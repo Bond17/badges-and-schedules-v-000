@@ -1,6 +1,6 @@
 # Write your code here.
 def assign_rooms (attendees)
-room = [" ", " "]
+room = Array.new
 index = attendees.size
 attendees.each do |room_assignment|
   room[index] = "Hello #{room_assignment}! You'll be assigned to room #{index}! "
