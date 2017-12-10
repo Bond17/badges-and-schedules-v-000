@@ -21,6 +21,7 @@ index +=1
 end
 end
 
+assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 
 # def printer
 #
