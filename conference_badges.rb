@@ -6,8 +6,12 @@ end
 def badge_maker(name)
 "Hello, my name is #{name}."
 end
-def batch_badge_creator (array)
 
+def batch_badge_creator (array)
+index=0
+array.each do |name|
+array[inded]=badge_maker(name)
+end
 end
 
 
