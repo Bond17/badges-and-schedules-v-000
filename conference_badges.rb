@@ -2,9 +2,10 @@
 def assign_rooms (attendees)
 index = attendees.size
 attendees.each |room_assignment|
-room[index]=room_assignment
-index +=1
+  room[index]=room_assignment
+  index +=1
 end
+room
 end
 
 def badge_maker(name)
