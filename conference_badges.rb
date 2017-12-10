@@ -25,11 +25,11 @@ puts assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def printer (array)
 
-assign_rooms(array).each |Rooms| do
+assign_rooms(array).each do |Rooms|
 puts Rooms
 end
 
-batch_badge_creator(array).each |Rooms| do
+batch_badge_creator(array).each do |Rooms|
 puts Rooms
 end
 
