@@ -3,7 +3,7 @@ def assign_rooms (attendees)
 room = Array.new
 index = 0
 attendees.each do |room_assignment|
-  room[index] = "Hello #{room_assignment}! You'll be assigned to room #{index}!"
+  room[index] = "Hello #{room_assignment}! You'll be assigned to room #{index+1}!"
   index +=1
 end
 room
