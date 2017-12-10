@@ -23,13 +23,13 @@ end
 
 puts assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 
-def printer
+def printer (array)
 
-assign_rooms.each |Rooms| do
+assign_rooms(array).each |Rooms| do
 puts Rooms
 end
 
-batch_badge_creator.each |Rooms| do
+batch_badge_creator(array).each |Rooms| do
 puts Rooms
 end
 
