@@ -1,9 +1,9 @@
 # Write your code here.
 def assign_rooms
-
+[" "," "]
 end
 def batch_badge_creator
-
+[" "," "]
 end
 
 def printer
